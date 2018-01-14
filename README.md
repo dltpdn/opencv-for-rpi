@@ -26,8 +26,9 @@ sudo apt install -y libxine2  libqtgui4 libjasper1 libqt4-test libqt4-opengl
 
 ## 3. Download and Install
 ```
-git clone 
+git clone https://github.com/dltpdn/opencv-for-rpi.git
 cd opencv-for-rpi
+cd <rasbian_version>/<opencv_version> #ex. cd stretch/3.3.0
 sudo dpkg -i OpenCV*.deb
 ```
 
