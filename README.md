@@ -1,6 +1,6 @@
 # OpenCV for Raspberry-Pi(라즈베리파이를 위한 OpenCV)
-It is a Debian package installation file that is pre-built to install OpenCV and OpenCV-Python in Raspberry-Pi without compilation.
-Using it will save you about two hours and will free you from various problems that arise during the build.
+These are Debian package installation files that are pre-built to install OpenCV and OpenCV-Python on Raspberry-Pi without compilation process.
+Using it will save your time about two hours and will free you from various problems that arise during the build.
 It was compiled on RaspberryPi 3 Model B+.
 
 라즈베리파이에 OpenCV와 OpenCV-Python을 컴파일 없이 설치할 수 있게 미리 빌드한 데비아 패키지 설치 파일입니다. 
