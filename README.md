@@ -12,22 +12,33 @@ It was compiled on RaspberryPi 3 Model B+.
 
 ## 1. apt update
 ```
-sudo apt update
-sudo apt upgrade
+$ sudo apt update
+$ sudo apt upgrade
 ```
 If you are busy, you can skip 'upgrade', but 'update' is necessary.
 
 시간을 절약하려면 'upgrade'는 안해도 되는데, 'update'는 꼭 해야 합니다.
 
-## 2. Download and Install
+## 2. Download
+```bash
+~ $ git clone https://github.com/dltpdn/opencv-for-rpi.git
+~ $ cd opencv-for-rpi
+~/opencv-for-rpi $ cd <rasbian_version>/<opencv_version> #cd stretch/3.4.0
 ```
-git clone https://github.com/dltpdn/opencv-for-rpi.git
-cd opencv-for-rpi
-cd <rasbian_version>/<opencv_version> #ex. cd stretch/3.3.0
-sudo apt-get install -y ./OpenCV*.deb
+## 3. Installation
+```
+~/opencv-for-rpi/stretch/3.4.0 $ sudo apt-get install -y ./OpenCV*.deb
+```
+or
+```
+~/opencv-for-rpi/stretch/3.4.0 $ sudo dpkg -i ./OpenCV*.dev
+~/opencv-for-rpi/stretch/3.4.0 $ sudo apt install -f
 ```
 
-## 4. Check the result(결과 확인)
+## 3. Check the result(결과 확인)
 ```
-$ pkg-config —modversion opencv
+~ $ pkg-config —modversion opencv  #opencv 3.4.0
+```
+```
+~ $ dpkg -l |grep opency
 ```
