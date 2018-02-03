@@ -40,5 +40,5 @@ or
 ~ $ pkg-config —modversion opencv  #opencv 3.4.0
 ```
 ```
-~ $ dpkg -l |grep opency
+~ $ dpkg -l |grep opencv
 ```
