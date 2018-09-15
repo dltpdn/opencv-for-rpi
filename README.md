@@ -20,13 +20,13 @@ If you are busy, you can skip 'upgrade', but 'update' is necessary.
 시간을 절약하려면 'upgrade'는 안해도 되는데, 'update'는 꼭 해야 합니다.
 
 ## 2. Download
-### 모든 버전 다운로드
+### All (모든 버전 다운로드)
 ```bash
 ~ $ git clone https://github.com/dltpdn/opencv-for-rpi.git
 ~ $ cd opencv-for-rpi
 ~/opencv-for-rpi $ cd <rasbian_version>/<opencv_version> #cd stretch/3.4.0
 ```
-### 원하는 버전만 다운로드
+### Specific version only(원하는 버전만 다운로드)
 Select the version you want from the release page and download it.
 
 릴리즈 페이지에서 원하는 버전을 선택해서 다운로드 받으세요.
