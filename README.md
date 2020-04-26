@@ -21,6 +21,7 @@ If you are busy, you can skip 'upgrade', but 'update' is necessary.
 
 ## 2. Download
 Download files that you want to install from releases page.
+
 릴리즈 페이지에서 원하는 버전을 선택해서 다운로드 받으세요.
 
 * https://github.com/dltpdn/opencv-for-rpi/releases
