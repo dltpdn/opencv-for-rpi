@@ -20,7 +20,7 @@ If you are busy, you can skip 'upgrade', but 'update' is necessary.
 시간을 절약하려면 'upgrade'는 안해도 되는데, 'update'는 꼭 해야 합니다.
 
 ## 2. Download
-Download files that you want to install from releases page.
+Find the version you want to install from releases page and download it.
 
 릴리즈 페이지에서 원하는 버전을 선택해서 다운로드 받으세요.
 
